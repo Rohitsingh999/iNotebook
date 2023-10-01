@@ -14,7 +14,7 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const url = "i-notebook-api-alpha.vercel.app/api/auth/login";
+    const url = "https://i-notebook-api-alpha.vercel.app/api/auth/login";
     const response = await fetch(url, {
       method: "Post",
       headers: {

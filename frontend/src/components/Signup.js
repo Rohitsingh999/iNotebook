@@ -27,7 +27,7 @@ const Signup = () => {
       );
     }
 
-    const url = "i-notebook-api-alpha.vercel.app/api/auth/createuser";
+    const url = "https://i-notebook-api-alpha.vercel.app/api/auth/createuser";
     const response = await fetch(url, {
       method: "Post",
       headers: {
